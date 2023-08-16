@@ -1,5 +1,4 @@
 package math;
-
 import java.util.Scanner;
 
 public class test {
@@ -20,6 +19,11 @@ public class test {
 		}
 	}
 
+
+//random sum
+package math;
+import java.util.Scanner;
+
 public class test {
 	public static void main(String[] args) {
 		int x = (int)(Math.random()*1000);
@@ -33,7 +37,10 @@ public class test {
     }
 }
 
+//caculate
 
+package math;
+import java.util.Scanner;
 public class test {
     public static void main(String[] args)
     {
@@ -46,5 +53,34 @@ public class test {
     	System.out.println("每位數和:"+(hundred+ten+one));
     	System.out.println("每位數積:"+(hundred*ten*one));
     	System.out.println("每位數差:"+(hundred-ten-one));
+    }
+}
+
+
+//guess the number
+
+package math;
+import java.util.Scanner;
+
+public class test {
+    public static void main(String[] args)
+    {
+		int x = (int)(Math.random()*10);
+		int y = (int)(Math.random()*10);
+    	Scanner input = new Scanner(System.in);
+    	System.out.println("test number :");
+    	int number = input.nextInt();
+    	while(number != (x+y)) {
+    		if(number < (x+y)) {
+    			System.out.println("smaller than answer");
+    			number = input.nextInt();
+    		}
+    		else if(number > (x+y))
+    		{
+    			System.out.println("bigger than the answer");
+    			number = input.nextInt();    		
+    		}
+    	}
+    	System.out.println(x+y);
     }
 }
