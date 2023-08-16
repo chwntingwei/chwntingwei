@@ -1,1 +1,50 @@
+package math;
 
+import java.util.Scanner;
+
+//public class test {
+//		public static void main(String[] args) {
+//			int x = (int)(Math.random()*1000);
+//			int y = (int)(Math.random()*1000);
+//			System.out.println(x+"+"+y+"= ?");
+//			Scanner input = new Scanner(System.in);
+//			System.out.println("ans:");
+//			int g = input.nextInt();
+//			if(g == x + y) {
+//				System.out.println("correct");
+//			}
+//			else {
+//				System.out.println("wrong");
+//				System.out.println("the answer is"+ (x+y));
+//			}
+//		}
+//	}
+
+//public class test {
+//	public static void main(String[] args) {
+//		int x = (int)(Math.random()*1000);
+//		int y = (int)(Math.random()*1000);
+//		System.out.println(x+"+"+y+"= ?");
+//		for(int i = 0; i < 20000; i++) {
+//			if(i == (x+y)) {
+//				System.out.println(i);
+//			}
+//		}
+//    }
+//}
+
+
+//public class test {
+//    public static void main(String[] args)
+//    {
+//    	Scanner input = new Scanner(System.in);
+//    	System.out.println("test number :");
+//    	int number = input.nextInt();
+//    	int hundred = number/100;
+//    	int ten = (number-(number/100)*100)/10;
+//    	int one = number % 10;
+//    	System.out.println("每位數和:"+(hundred+ten+one));
+//    	System.out.println("每位數積:"+(hundred*ten*one));
+//    	System.out.println("每位數差:"+(hundred-ten-one));
+//    }
+//}
